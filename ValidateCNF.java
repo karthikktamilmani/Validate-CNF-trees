@@ -56,7 +56,7 @@ public class ValidateCNF {
             System.out.println("Input:");
             Scanner myObj = new Scanner(System.in);
             while (myObj.hasNextLine()) {
-                inputContent = inputContent.append(myObj.nextLine() + "\n");
+                inputContent = inputContent.append(myObj.nextLine().strip() + "\n");
             }
             //
             String input = inputContent.toString();
